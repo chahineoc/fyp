@@ -1,0 +1,68 @@
+.guides-page {
+  width: 100%;
+  max-width: 800px; /* Adjust the width as needed */
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* .guides-header {
+  /* Style your header here, similarly to what you have in App.css */
+ 
+
+.guides-content {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.guides-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-section .search-input {
+  flex-grow: 2; /* Takes up more space in the flex container */
+  margin-right: 10px; /* Spacing between elements */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-section button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sort-button {
+  background-color: #f0f0f0;
+}
+
+.filter-button {
+  background-color: #f0f0f0;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.guides-list {
+  border: 1px solid #ccc;
+  padding: 20px;
+  min-height: 300px; /* Minimum height for layout purposes */
+}

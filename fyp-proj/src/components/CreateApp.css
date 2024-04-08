@@ -1,0 +1,36 @@
+.create-application {
+  width: 100%;
+  max-width: 600px; /* Adjust the width as needed */
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+.application-content {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.application-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-content form label {
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* .application-content form input[type="text"],
+.application-content form input[type="number"],
+.application-content */

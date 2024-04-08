@@ -1,0 +1,85 @@
+/* HomePage.css */
+.home-page {
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Standard text color */
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #000; /* Based on the image */
+  color: white;
+}
+
+.logo {
+  font-size: 24px; /* Example size, adjust as needed */
+  font-weight: bold;
+}
+
+.top-nav button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.top-nav button:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #0056b3; /* Dark blue background */
+  color: white;
+}
+
+.hero-section h1 {
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  margin-bottom: 30px;
+}
+
+.hero-section button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f8f9fa; /* Light background for the button */
+  color: #0056b3; /* Text color for the button */
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners for the button */
+}
+
+.hero-section button:hover {
+  background-color: #e1e4e8; /* Slightly darker on hover */
+}
+
+.registration-process {
+  background-color: #fff; /* White background for the process section */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.registration-process h2 {
+  color: #000; /* Title color */
+  margin-bottom: 40px;
+}
+
+.step {
+  margin: 30px 0;
+}
+
+.step img {
+  width: 100%; /* Full width of the container */
+  max-width: 300px; /* Max width, but adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px;
+}
+
+.step p {
+  color: #666; /* Dark gray for text */
+  margin-bottom: 5px; /* Spacing between step description and details */
+}
